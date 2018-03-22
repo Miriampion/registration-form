@@ -17,3 +17,7 @@ section {
 .pad-r {
   padding-right: .5rem;
 }
+
+h1 {
+  border-bottom: 1px solid #000;
+}

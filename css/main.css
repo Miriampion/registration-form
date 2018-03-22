@@ -9,3 +9,11 @@ body {
 section {
   background-color: #fff;
 }
+
+.pad-l {
+  padding-left: .5rem;
+}
+
+.pad-r {
+  padding-right: .5rem;
+}

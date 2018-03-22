@@ -11,29 +11,29 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
 <body>
-  <section>
+  <section class="gutter">
     <div>
       <h1>Want to go to Mars?</h1>
       <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
     </div>
       <form action="Mars.html" method="post">
         <fieldset>
-        <legend>Personal details</legend>
+        <legend class="italic">Personal details</legend>
       </fieldset>
         <div class="grid">
-          <div class="push unit xs-1 s-1 m-1 l-1-2">
+          <div class="push pad-r unit xs-1 s-1 m-1 l-1-2">
             <label for="name">Name</label>
             <input id="name" required>
           </div>
-          <div class="push unit xs-1 s-1 m-1 l-1-2">
+          <div class="push pad-l unit xs-1 s-1 m-1 l-1-2">
             <label for="age">Age</label>
             <input id="age" name="age" required>
           </div>
-          <div class="push unit xs-1 s-1 m-1 l-1-2">
+          <div class="push pad-r unit xs-1 s-1 m-1 l-1-2">
             <label for="email">Email</label>
             <input id="email" name="email" required>
           </div>
-          <div class="push unit xs-1 s-1 m-1 l-1-2">
+          <div class="push pad-l unit xs-1 s-1 m-1 l-1-2">
             <label for="physical-fitness">Physical fitness</label>
             <select id="physical-fitness" name="physical-fitness"required>
               <option>Super-human</option>
@@ -50,17 +50,16 @@
 
 
     <fieldset>
-      <legend>Mission statement</legend>
+      <legend class="italic">Mission statement</legend>
     </fieldset>
       <div class="push">
       <label for="mission">Why do you want to go to Mars?</label>
       <textarea id="mission" required></textarea>
       </div>
-
-    <button type="submit">Register for the trip!</button>
-     <input type="hidden" name="Request to join the mission" value="request">
-   </fieldset>
-
+      <div class="text-center">
+      <button type="submit">Register for the trip!</button>
+      <input type="hidden" name="Request to join the mission" value="request">
+      </div>
   </form>
 
 </body>
